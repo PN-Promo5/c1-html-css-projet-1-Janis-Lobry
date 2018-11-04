@@ -1,0 +1,56 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width: 640px) {
+
+  /* STYLES */
+  .container {
+    width: 100%;
+    display: fkex
+  }
+
+  /* ICONS MOBILE */
+  #icons div.container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* MENU MOBILE */
+  nav {
+    width: 100%;
+  }
+  li {
+    display: none;
+  }
+  /* PRODUCT MOBILE */
+  .products-row {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+
+  /* ARTICLES */
+  p.Description {
+    margin: 0;
+  }
+
+  /* CONCEPT MOBILE */
+  .concept-row {
+    width: 100%;
+  }
+
+  /* PROMO MOBILE */
+  .promo-row {
+    background-attachment: none;
+  }
+
+  span {
+    display: none;
+  }
+  /* CONCEPT MOBILE */
+  .texte-concept {
+    margin: 0;
+  }
+
+  /* FOOTER MOBILE */
+  #textFooter {
+    display: none;
+  }
